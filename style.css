@@ -8,7 +8,7 @@ CSS style sheet
 }
 
 body {
-    margin: 8px;
+    margin: 16px;
     padding: 0;
     background-color: var(--background-color);
     color: var(--text-color);
