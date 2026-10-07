@@ -6,3 +6,12 @@ CSS style sheet
     --text-color: 433633;
     --section-color: 8F857D;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
