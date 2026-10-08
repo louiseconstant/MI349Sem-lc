@@ -88,3 +88,17 @@ p {
     padding-left: 35px;
 }
 
+#projects a {
+    border-left: 6px solid var(--section-color);
+}
+
+#projects a {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+#projects a {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
