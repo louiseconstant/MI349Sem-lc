@@ -69,7 +69,7 @@ p {
 }
 
 #about {
-    border-left: 6px solid var(--section-color);
+    border-left: 3px solid var(--section-color);
 }
 
 #about img {
@@ -89,7 +89,7 @@ p {
 }
 
 #projects a {
-    border-left: 6px solid var(--section-color);
+    border-left: 3px solid var(--section-color);
 }
 
 #projects a {
@@ -102,3 +102,10 @@ p {
     text-decoration: underline;
 }
 
+#projects img {
+    width: 300px;
+    max-width: 100%;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.18);
+}
