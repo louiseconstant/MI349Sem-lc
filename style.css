@@ -74,7 +74,7 @@ p {
 
 #about img {
     float: left;
-    width: 300px;
+    width: 400px;
     max-width: 100%;
     margin: 15px 20px 15px 0px;
     border-radius: 15px;
@@ -82,5 +82,9 @@ p {
 
 #about p {
     padding-left: 25px;
+}
+
+#about ul {
+    padding-left: 35px;
 }
 
