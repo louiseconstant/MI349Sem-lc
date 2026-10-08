@@ -30,7 +30,7 @@ header {
 
 header h1 {
     margin: 8px;
-    font-size: x-large;
+    font-size: xx-large;
     letter-spacing: 1px;
 }
 
@@ -47,4 +47,5 @@ nav a {
     border-radius: 6px;
     background-color: var(--background-color);
     text-decoration: underline;
+    text-align: center;
 }
