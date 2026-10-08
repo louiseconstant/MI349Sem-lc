@@ -64,7 +64,7 @@ section h3 {
 }
 
 p {
-    font-size: small;
+    font-size: medium;
     margin-bottom: 15px;
 }
 
@@ -80,6 +80,6 @@ p {
     border-radius: 15px;
 }
 
-#about ul {
-    padding-left: 10px;
+#about p {
+    padding-left: 25px;
 }
