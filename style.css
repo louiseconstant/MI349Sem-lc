@@ -17,19 +17,19 @@ body {
 }
 
 main {
-    max-width:  20px auto;
+    max-width:  20px;
     margin: 0 auto;
     padding: 10px;
 }
 
 header {
     background-color: var(--main-color);
-    color: var(white);
+    color: white;
     padding: 20px 10px;
 }
 
 header h1 {
-    margin: 8;
+    margin: 8px;
     font-size: x-large;
     letter-spacing: 1px;
 }
@@ -45,9 +45,6 @@ nav a {
     margin: 0 12px;
     padding: 8px 12px;
     border-radius: 6px;
-}
-
-nav a {
-    background-color: var(--accent-color);
+    background-color: var(--background-color);
     text-decoration: underline;
 }
