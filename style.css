@@ -63,6 +63,11 @@ section h3 {
     margin: 15px 0;
 }
 
+section h2{
+    color: var(--text-color);
+    margin: 10px;
+}
+
 p {
     font-size: medium;
     margin-bottom: 15px;
