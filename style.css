@@ -39,7 +39,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--accent-color);
     text-decoration: none;
     font-weight: bold;
     margin: 0 12px;
