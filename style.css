@@ -2,7 +2,7 @@ CSS style sheet
 :root {
     --main-color: #5C5552;
     --accent-color: #DECBB7;
-    --background-color: #F7F0F5;
+    --background-color: #f3dfed;
     --text-color: #433633;
     --section-color:#8F857D;
 }
@@ -27,6 +27,8 @@ header {
     color: black;
     padding: 20px 10px;
     text-align: center;
+    border: 3px solid var(--background-color);
+    border-radius: 10px;
 }
 
 header h1 {
