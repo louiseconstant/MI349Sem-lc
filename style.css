@@ -123,3 +123,27 @@ input {
     font-size: medium;
     box-sizing: border-box;
 }
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: 150px;
+    padding: 10px;
+    border: 1px var(--main-color);
+    border-radius: 6px;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: var(--background-color);
+    color: white;
+    border: 1px solid var(--main-color);
+    border-radius: 8px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
