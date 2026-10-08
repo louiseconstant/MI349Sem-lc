@@ -34,3 +34,20 @@ header h1 {
     letter-spacing: 1px;
 }
 
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 12px;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+nav a {
+    background-color: var(--accent-color);
+    text-decoration: underline;
+}
