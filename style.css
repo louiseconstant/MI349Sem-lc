@@ -19,13 +19,13 @@ body {
 main {
     max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 header {
     background-color: var(--main-color);
     color: var(white);
-    padding: 40px 20px;
+    padding: 20px 10px;
 }
 
 header h1 {
