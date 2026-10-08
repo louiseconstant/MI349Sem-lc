@@ -83,3 +83,8 @@ p {
 #about p {
     padding-left: 25px;
 }
+
+#about h3,
+#about ul {
+    clear: both;
+}
