@@ -52,3 +52,10 @@ nav a {
     background-color: var(--background-color);
     text-decoration: underline;
 }
+
+section h2 {
+    color: var(--text-color);
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 12px;
+}
