@@ -24,7 +24,7 @@ main {
 
 header {
     background-color: var(--main-color);
-    color: white;
+    color: black;
     padding: 20px 10px;
 }
 
