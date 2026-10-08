@@ -62,3 +62,24 @@ section h3 {
     color: var(--text-color);
     margin: 15px 0;
 }
+
+p {
+    font-size: small;
+    margin-bottom: 15px;
+}
+
+#about {
+    border-left: 6px solid var(--section-color);
+}
+
+#about img {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    margin: 15px auto;
+    border-radius: 15px;
+}
+
+#about ul {
+    padding-left: 10px;
+}
