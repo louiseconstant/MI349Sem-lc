@@ -23,7 +23,7 @@ main {
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr;
     gap: 20px;
     align-items: start;
 }
@@ -173,19 +173,19 @@ button {
     cursor: pointer;
 }
 
-@media (min-width 400px) {
+@media (min-width: 400px) {
     .parent {
         grid-template-columns: repeat(1, minmax(0,1fr));
     }
 }
 
-@media (min-width 600px) {
+@media (min-width: 600px) {
     .parent {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
-@media (min-width 1000px) {
+@media (min-width: 1000px) {
     .parent {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
