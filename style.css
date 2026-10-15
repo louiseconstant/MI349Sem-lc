@@ -21,6 +21,24 @@ main {
     padding: 10px;
 }
 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.div1 {
+    grid-column: span 4;
+}
+
+.div2 {
+    grid-column: span 2;
+}
+
+.div3 {
+    grid-column: span 2;
+}
+
 header {
     background-color: var(--accent-color);
     color: black;
@@ -84,12 +102,6 @@ p {
 
 #about p {
     padding-left: 25px;
-}
-
-#projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background: #b1a59b;
 }
 
 #about ul {
