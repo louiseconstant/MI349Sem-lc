@@ -164,9 +164,9 @@ textarea {
 button {
     margin-top: 20px;
     padding: 12px 25px;
-    background-color: var(--section-color);
+    background-color: var(--main-color);
     color: white;
-    border: 1px solid var(--main-color);
+    border: 1px solid var(--section-color);
     border-radius: 8px;
     font-size: medium;
     font-weight: bold;
