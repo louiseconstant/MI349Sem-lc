@@ -115,7 +115,7 @@ p {
 }
 
 #projects a {
-    color: var(--accent-color);
+    color: var(--section-color);
     text-decoration: underline;
 }
 
