@@ -41,7 +41,7 @@ main {
 }
 
 header {
-    background-color: var(--section-color);
+    background-color: var(--accent-color);
     color: black;
     padding: 20px 10px;
     text-align: center;
@@ -115,7 +115,7 @@ p {
 }
 
 #projects a {
-    color: var(--section-color);
+    color: var(--main-color);
     text-decoration: underline;
 }
 
