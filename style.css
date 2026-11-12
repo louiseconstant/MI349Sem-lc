@@ -13,6 +13,13 @@ body {
     color: var(--text-color);
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #433633 ;
+    color: white
 }
 
 main {
@@ -190,3 +197,4 @@ button {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
+
