@@ -1,13 +1,13 @@
 ScrollReveal().reveal(".parent", {delay: 1000});
 
-const click = document.getElementById("theme-toggle");
-click.addEventListener("click", function() {
+const themeButton = document.getElementById("theme-toggle");
+themeButton.addEventListener("click", function() {
     document.body.classList.toggle ("dark-mode");
 
     if (document.body.classList.contains ("dark-mode")) {
-        click.textContent = "☀️";
+        themeButton.textContent = "☀️";
     }
     else {
-        click.textContent = "🌙";
+        themeButton.textContent = "🌙";
     }
 });
