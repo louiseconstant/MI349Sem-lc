@@ -19,7 +19,7 @@ body {
 /* Dark Mode */
 body.dark-mode {
     background-color: #433633 ;
-    color: white
+    color: white;
 }
 
 main {
